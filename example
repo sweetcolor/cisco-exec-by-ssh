@@ -1,0 +1,7 @@
+10.1.1.20,admin,password
+config wlan disable 1
+config wlan radius_server acct disable 1
+config wlan radius_server auth disable 1
+config wlan enable 1
+save config
+exit
